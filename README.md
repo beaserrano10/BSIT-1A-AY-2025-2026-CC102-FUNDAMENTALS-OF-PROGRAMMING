@@ -1,12 +1,1 @@
-my_list = list(range(1, 10))
-print("Original list:", my_list)
-print("Length of list:", len(my_list))
 
-unique_list = []
-
-for x in my_list:
-    if x not in unique_list:
-        unique_list.append(x)
-
-print("\nThe list with unique elements only.")
-print(unique_list)
